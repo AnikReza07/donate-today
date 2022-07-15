@@ -132,13 +132,12 @@ input{
     border-radius: 5px;
 }
 #third{
-    background: rgba(193, 214, 144, 0.1);
+    background: rgba(135, 144, 113, 0.1);
     border-radius: 5px;
 }
 .flexible-container{
     display: flex;
     padding-top: 5%;
-    background-color: rgb(190, 176, 176);
 }
 .half-width{
     width: 50%;
@@ -174,4 +173,51 @@ input{
 }
 #my{
     color: black;
+}
+.email-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid 0;
+    margin: 50px;
+    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #FFF4D6;
+    height: 150px;
+}  
+form{
+    display: flex;
+    height: 50px;
+}
+.email-box > form > input{
+border: 2px solid red;
+background-color: rgb(86, 83, 83);
+}
+.button-2{
+    background-image: linear-gradient(orange, red);
+    padding: 10px 30px;
+    color: white;
+    font-size: 700;
+    border-color: none;
+
+}
+footer{
+    background-color: black;
+}
+.be{
+    color: orange;
+    text-align: center;
+    height: 80px;
+    padding-top: 3%;
+    font-size: 30px;
+    background-size: cover;
+    background-position: absolute;
+    font-family: 'Noto Serif', serif;
+}
+.do{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
