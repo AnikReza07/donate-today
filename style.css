@@ -204,13 +204,16 @@ background-color: rgb(86, 83, 83);
 }
 footer{
     background-color: black;
+    padding: 10px;
 }
 .be{
-    color: orange;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 80px;
     padding-top: 3%;
     font-size: 30px;
+    color: #FF5959;
     background-size: cover;
     background-position: absolute;
     font-family: 'Noto Serif', serif;
